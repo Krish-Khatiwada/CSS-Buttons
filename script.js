@@ -1,0 +1,1 @@
+document.getElementsByTagName("ul")[0].firstElementChild.style.color = "red"
