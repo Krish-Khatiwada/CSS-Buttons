@@ -95,6 +95,7 @@ header nav ul li {
  }
 
  button {
+    cursor: pointer;
     background-color: #fff;
     color: #000;
     font-weight: 700;
