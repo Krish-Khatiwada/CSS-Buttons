@@ -70,43 +70,58 @@ header nav ul li {
     border: 2px double black;
     padding: 5px;
 } */
- /* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
 
- body {
-    font-weight: 700;
-    font-family: sans-serif;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5rem;
-    margin-top: 10rem;
- }
 
- .joke {
-    width: 600px;
-    border: 2px solid red;
-    border-radius: 1rem;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
 
- button {
+body {
+    background-color: #ED9121;
+}
+
+.box {
+    width: 80vmin;
+    padding: 50px 4px;
+    background-color: #15161a;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 30px 0;
+}
+
+button {
+    display: block;
+    background-color: #ED9121;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #171721;
+    padding: 12px 25px;
+    margin: 0 auto;
+    border-radius: 5px;
     cursor: pointer;
-    background-color: #fff;
-    color: #000;
-    font-weight: 700;
-    border: 2px solid black;
-    border-radius: 1rem;
-    padding: 1rem;
- }
-
- button:hover {
-    background-color: #000;
-    color: #fff;
-    transition: 0.5s;
- }
- 
+}

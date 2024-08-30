@@ -42,7 +42,7 @@ let joke_arr = [`What's the best thing about Switzerland? The flag is a big plus
 
     `Some people pick their nose, but I was born with mine.`]
 
-let joke = document.getElementsByClassName("joke")[0];
+let joke = document.getElementsByTagName("p")[0];
 let btn = document.querySelector("button")
 
 
